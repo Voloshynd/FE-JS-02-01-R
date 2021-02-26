@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="4" failures="2" time="3.201">
-  <testsuite name="Funkcja isMaleName" errors="0" failures="2" skipped="0" timestamp="2021-02-26T17:04:09" time="1.401" tests="4">
+<testsuites name="jest tests" tests="4" failures="2" time="3.656">
+  <testsuite name="Funkcja isMaleName" errors="0" failures="2" skipped="0" timestamp="2021-02-26T17:07:48" time="1.694" tests="4">
     <testcase classname="Funkcja isMaleName powinna zwrócić wartość typu boolean" name="Funkcja isMaleName powinna zwrócić wartość typu boolean" time="0.002">
     </testcase>
-    <testcase classname="Funkcja isMaleName powinna zwrócić false gdy ostatnia litera imienia to &quot;a&quot;" name="Funkcja isMaleName powinna zwrócić false gdy ostatnia litera imienia to &quot;a&quot;" time="0.004">
+    <testcase classname="Funkcja isMaleName powinna zwrócić false gdy ostatnia litera imienia to &quot;a&quot;" name="Funkcja isMaleName powinna zwrócić false gdy ostatnia litera imienia to &quot;a&quot;" time="0.003">
       <failure>Error: expect(received).toBe(expected) // Object.is equality
 
 Expected: false
@@ -16,7 +16,7 @@ Received: true
     at C:\Users\asus\AppData\Roaming\Code\User\globalStorage\leancode.future-collars\futurecollars\fe-js-02-01-r\node_modules\jest-jasmine2\build\queueRunner.js:73:41
     at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
     </testcase>
-    <testcase classname="Funkcja isMaleName powinna zwrócić true gdy ostatnią literą imienia nie jest &quot;a&quot;" name="Funkcja isMaleName powinna zwrócić true gdy ostatnią literą imienia nie jest &quot;a&quot;" time="0">
+    <testcase classname="Funkcja isMaleName powinna zwrócić true gdy ostatnią literą imienia nie jest &quot;a&quot;" name="Funkcja isMaleName powinna zwrócić true gdy ostatnią literą imienia nie jest &quot;a&quot;" time="0.001">
     </testcase>
     <testcase classname="Funkcja isMaleName powinna zwrócić true gdy imieniem jest &quot;Bonawentura&quot;" name="Funkcja isMaleName powinna zwrócić true gdy imieniem jest &quot;Bonawentura&quot;" time="0.001">
       <failure>Error: expect(received).toBe(expected) // Object.is equality
